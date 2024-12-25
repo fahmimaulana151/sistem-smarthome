@@ -12,6 +12,10 @@
 #define BLYNK_PRINT Serial
 #include <BlynkSimpleEsp8266.h>
 
+//Menambahkan LiquidCrystal_I2C lcd(0x27, 16, 2);
+#include <LCD_I2C.h>
+LCD_I2C lcd(0x27, 20, 4);
+
 //Sambung ke ThingSpeak
 String apiKey = "C3R0IHAUEIMXGAD5";
 unsigned long myChannelNumber = 2635101; 
