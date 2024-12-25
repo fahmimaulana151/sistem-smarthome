@@ -17,10 +17,12 @@ const char* password = "1sampai8";
 #define MQ2 A0
 int sensorValue = 0;
 int Nilaisensor = 0;
-int pinSensor = D0; // Misalnya, sensor di pin D2
+int pinSensor = D0; // Misalnya, sensor di pin D0
 int pinLED = D3;   // Misalnya, LED di pin D3
 //menambah elemen buzzer sebagai alarm
 int pinBUZ = D1;
+//tambahkan pin LED jika ingin digunakan sebagai indikator seperti buzzer
+
 DHT dht(D4, DHT11); 
 String url;
 WiFiClient client;
