@@ -24,6 +24,8 @@ const char *server = "api.thingspeak.com";
 //Mengkonfigurasi WiFi
 const char* ssid = "Pakek Ajah";
 const char* password = "1sampai8";
+//menambah kode untuk Blynk
+BlynkTimer timer;
 
 #define MQ2 A0
 int sensorValue = 0;
