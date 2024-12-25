@@ -27,7 +27,9 @@ const char* password = "1sampai8";
 //menambah kode untuk Blynk
 BlynkTimer timer;
 
-//tambah relay 2 menyala apabia deteksi gas bocor
+
+//tambah relay 1 menyala apabia deteksi api
+//bisa tambahkan notifikasi email dari Blynk
 
 #define MQ2 A0
 int sensorValue = 0;
