@@ -19,6 +19,7 @@ int sensorValue = 0;
 int Nilaisensor = 0;
 int pinSensor = D0; // Misalnya, sensor di pin D2
 int pinLED = D3;   // Misalnya, LED di pin D3
+//menambah elemen buzzer sebagai alarm
 int pinBUZ = D1;
 DHT dht(D4, DHT11); 
 String url;
